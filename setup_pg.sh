@@ -31,3 +31,4 @@ echo max_worker_processes=2 >> /var/lib/postgresql/data/postgresql.conf
 echo max_parallel_workers_per_gather=1 >> /var/lib/postgresql/data/postgresql.conf
 echo max_parallel_workers=2 >> /var/lib/postgresql/data/postgresql.conf
 echo max_parallel_maintenance_workers=1 >> /var/lib/postgresql/data/postgresql.conf
+echo jit=off >> /var/lib/postgresql/data/postgresql.conf
